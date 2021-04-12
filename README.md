@@ -1,1 +1,3 @@
-# django_ockovani_rychly
+# Vlastní webová aplikace v Django - očkování
+# Lukáš Rychlý, IT3
+

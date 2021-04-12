@@ -48,7 +48,7 @@ class Ockovani(models.Model):
         ordering = ["datum_narozeni", "prijmeni"]
 
     def __str__(self):
-        return f" Jméno: {self.jmeno}  Příjmení: {self.prijmeni}, Vakcína: {self.vakcina}"
+        return f"{self.jmeno} {self.prijmeni}, datum narození: {self.datum_narozeni}"
 
     def get_absolute_url(self):
         return reverse('ockovani-detail', args=[str(self.id)])
